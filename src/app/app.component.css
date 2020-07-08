@@ -1,0 +1,8 @@
+#render_space{
+    background-color:lightgray;
+    height: 600px;
+    width: 1350px;
+    float:right;
+    position: relative;
+    top: -200px;
+}

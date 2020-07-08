@@ -1,0 +1,27 @@
+<p>
+  <ngb-alert [dismissible]="false">
+    <strong>Instruction!</strong> Click on nav component to see use of other ng-bootstrap modules.
+  </ngb-alert>
+</p>
+<div style="width: 150px;">
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" routerLink="accordion">Accordion</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="model">Model</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="carousel">Carousel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="typehead">Typehead</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="popover">Popover</a>
+  </li>
+</ul>
+</div>
+<div id="render_space">
+  <router-outlet></router-outlet>
+</div>
