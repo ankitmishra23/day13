@@ -9,6 +9,9 @@ import { PopoverComponent } from './popover/popover.component';
 
 const routes: Routes = [
   {
+    path:'',redirectTo:'accordion',pathMatch:'full'
+  },
+  {
     path:'accordion',
     component:AccordionComponent
   }
